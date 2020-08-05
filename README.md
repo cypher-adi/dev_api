@@ -6,6 +6,7 @@ Ensure adding config.env inside the config folder in the root directory with the
 ```
 NODE_ENV = <environment_name>
 PORT = <port_no>
+MONGO_URI = <mongodb__connection_string>
 ```
 
 >To start the server in development mode
