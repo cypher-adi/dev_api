@@ -1,2 +1,6 @@
 node_modules
 config/config.env
+*.jpg
+*.jpeg
+*.png
+*.gif
