@@ -10,9 +10,13 @@ PORT = <port_no>
 MONGO_URI = <mongodb__connection_string>
 GEOCODER_PROVIDER= mapquest
 GEOCODER_API_KEY=<api_key>
+FILE_UPLOAD_PATH= ./public/uploads
+MAX_FILE_UPLOAD=1048576
 ```
 
-> For Geocoder provider you may use Mapquest, OpenCage, Google Premier
+> - For Geocoder provider you may use Mapquest, OpenCage, Google Premier
+> - FILE_UPLOAD_PATH defines the folder to upload the image.
+> - Maximum image file upload size is set to **1048576 bytes** (**1 MB**).
 
 ---
 
