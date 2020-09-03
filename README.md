@@ -14,6 +14,7 @@ FILE_UPLOAD_PATH= ./public/uploads
 MAX_FILE_UPLOAD=1048576
 JWT_SECRET=<secret_key>
 JWT_EXPIRE=30d
+JWT_COOKIE_EXPIRE=30
 ```
 
 > - For Geocoder provider you may use Mapquest, OpenCage, Google Premier
@@ -21,6 +22,7 @@ JWT_EXPIRE=30d
 > - Maximum image file upload size is set to **1048576 bytes** (**1 MB**).
 > - Add a secret key to sign the jwt tokens.
 > - JWT_EXPIRE sets the expiry time for the token.
+> - JWT_COOKIE_EXPIRE sets the expiry time for the cookie.
 
 ---
 
