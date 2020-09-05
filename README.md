@@ -7,14 +7,25 @@ Ensure adding config.env inside the config folder in the root directory with the
 ```
 NODE_ENV = <environment_name>
 PORT = <port_no>
+
 MONGO_URI = <mongodb__connection_string>
+
 GEOCODER_PROVIDER= mapquest
 GEOCODER_API_KEY=<api_key>
+
 FILE_UPLOAD_PATH= ./public/uploads
 MAX_FILE_UPLOAD=1048576
+
 JWT_SECRET=<secret_key>
 JWT_EXPIRE=30d
 JWT_COOKIE_EXPIRE=30
+
+SMTP_HOST=<host>
+SMTP_PORT=<port>
+SMTP_EMAIL=<email>
+SMTP_PASSWORD=<password>
+FROM_EMAIL=noreply@<domain_name>
+FROM_NAME=<Name>
 ```
 
 > - For Geocoder provider you may use Mapquest, OpenCage, Google Premier
@@ -23,6 +34,7 @@ JWT_COOKIE_EXPIRE=30
 > - Add a secret key to sign the jwt tokens.
 > - JWT_EXPIRE sets the expiry time for the token.
 > - JWT_COOKIE_EXPIRE sets the expiry time for the cookie.
+> - For nodemailer **SMTP** email setup use your email configurations like gmail, outlook, etc.
 
 ---
 
