@@ -156,6 +156,8 @@ npm start
 - Protect against http param polution
 - Use cors to make API public
 
+For complete Documentation with examples, [Click Here](https://documenter.getpostman.com/view/10834035/TVCiSRLk).
+
 #### Author
 
 > Aditya Kumar [Cypher](https://github.com/cypher-adi)
