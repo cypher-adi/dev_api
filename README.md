@@ -2,6 +2,8 @@
 
 Backend API for dev_api application to manage bootcamps, courses, reviews, users and authentication.
 
+To Access [Click Here](https://cypher-adi.github.io/dev_api/)
+
 Ensure adding config.env inside the config folder in the root directory with the following data.
 
 ```
